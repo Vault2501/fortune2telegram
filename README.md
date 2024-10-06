@@ -6,9 +6,11 @@ Selenium script to post fortune messages on telegram
 - fortune
 
 # Install
+```
 python -m venv .venv
 . .venv/bin/activate
 pip install -r requirements.txt
+```
 
 # Configuration
 ## Authentication
