@@ -14,8 +14,7 @@ from subprocess import run
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 
-#chat = 'https://web.telegram.org/k/<room_id>'# URI from Telegram WebUI
-chat = 'https://web.telegram.org/k/#-4536201702'# URI from Telegram WebUI
+chat = 'https://web.telegram.org/k/<room_id>'# URI from Telegram WebUI
 min_seconds = 3600 # minimum time in between posts
 max_seconds = 14400 # maximum time in between posts
 auth_seconds = 60 # When not logged in, give user 60 sec to log in
